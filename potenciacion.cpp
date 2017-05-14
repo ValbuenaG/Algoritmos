@@ -3,7 +3,7 @@ using namespace std;
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 double potencia (int b, int e);
 int main(int argc, char** argv) {
-	double B = 0, E = 0;
+	int B = 0, E = 0;
 	
 	cin>>B;cin>>E;
 	cout<<potencia(B, E);
