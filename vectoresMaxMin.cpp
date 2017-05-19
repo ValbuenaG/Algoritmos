@@ -7,9 +7,16 @@ float prom(int p[], int n);
 int main(int argc, char** argv) {
 	int c = 5;
 	int l1[c] = {0, 20, 30, 10, 12}, l2[c]={1,-3,6,7,8}, l3[c] = {5, 8,13, 21, 34};
-	cout<<max(l1, c)<<endl;
-	cout<<min(l3, c)<<endl;
-	cout<<prom(l2, c)<<endl;
+	cout<<"el valor max del vector 1 es: "<<max(l1, c)<<endl;
+	cout<<"el valor max del vector 2 es: "<<max(l2, c)<<endl;
+	cout<<"el valor max del vector 3 es: "<<max(l3, c)<<endl;
+	cout<<"el valor min del vector 1 es: "<<min(l1, c)<<endl;
+	cout<<"el valor min del vector 2 es: "<<min(l2, c)<<endl;
+	cout<<"el valor min del vector 3 es: "<<min(l3, c)<<endl;
+	cout<<"el promedio del vector 1 es: "<<prom(l1, c)<<endl;
+	cout<<"el promedio del vector 2 es: "<<prom(l2, c)<<endl;
+	cout<<"el promedio del vector 3 es: "<<prom(l3, c)<<endl;
+
 }
 int max(int v[], int n){
 	int m = 0;
